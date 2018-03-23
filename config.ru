@@ -9,7 +9,7 @@ end
 
 map '/' do
   response = proc do |env|
-    [200, { "Content-Type" => "application/json" }, ['{ "color":"green" }']]
+    [200, { "Content-Type" => "application/json" }, ['{ "color":"orange" }']]
   end
   run response
 end
